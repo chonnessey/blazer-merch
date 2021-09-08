@@ -6,7 +6,13 @@ function App() {
   return (
     <>
       <NavBar />
-      <MerchControl />
+      <div className="container">
+        <div className="row">
+          <div className="col-sm">
+            <MerchControl />
+          </div>
+        </div>
+      </div>
     </>
   );
 }

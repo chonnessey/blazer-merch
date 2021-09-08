@@ -20,10 +20,11 @@ function NewMerchForm(props){
           type='text'
           name='description'
           placeholder='Description' />
-        <textarea
+        <input
+          type='number'
           name='quantity'
           placeholder='Enter the quantity.' />
-        <button className="btn-lg btn-primary" type='submit'>Add Merch!</button>
+        <button className="btn-sm btn-primary" type='submit'>Add Merch!</button>
       </form>
     </>
   );

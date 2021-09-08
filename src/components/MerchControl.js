@@ -38,7 +38,7 @@ class MerchControl extends React.Component {
     return (
       <>
         {currentlyVisibleState}
-        <button onClick={this.handleClick}>{buttonText}</button>
+        <button className="btn btn-success" onClick={this.handleClick}>{buttonText}</button>
       </>
     );
   }
