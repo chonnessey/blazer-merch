@@ -40,6 +40,8 @@ class MerchControl extends React.Component {
         {currentlyVisibleState}
         <button onClick={this.handleClick}>{buttonText}</button>
       </>
-    )
+    );
   }
 }
+
+export default MerchControl;
